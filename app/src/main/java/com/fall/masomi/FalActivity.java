@@ -64,7 +64,7 @@ public class FalActivity extends AppCompatActivity {
     }
 
     private void getFal() {
-        pDialog.setMessage("در حال ثبت...");
+        pDialog.setMessage("در حال دریافت...");
         showDialog();
         ApiInterface apiInterface = ApiClient.getClient(this).create(ApiInterface.class);
         apiInterface.getFall().enqueue(new Callback<GetFallResponse>() {
