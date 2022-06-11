@@ -1,5 +1,6 @@
 package com.fall.masomi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -15,7 +16,8 @@ public class FalIntroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_intro_fal);
         btnFall = findViewById(R.id.btnFall);
         btnFall.setOnClickListener(v -> {
-//                Intent intent = new Intent(FalIntroActivity.this,FallIntroActivity.class);
+            Intent intent = new Intent(FalIntroActivity.this, FalActivity.class);
+            startActivity(intent);
         });
     }
 }

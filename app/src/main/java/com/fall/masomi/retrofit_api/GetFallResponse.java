@@ -1,11 +1,18 @@
 package com.fall.masomi.retrofit_api;
 
-import com.google.gson.annotations.SerializedName;
+import com.fall.masomi.Fal;
+
+import java.util.List;
 
 public class GetFallResponse {
-    @SerializedName("error")
-    public boolean error;
-    @SerializedName("error_msg")
-    public String error_msg = "خطایی رخ داده است";
+    public String title;
+    public String plainText;
+    public String htmlText;
+    public List<Verse> verses;
 
+    public static class Verse {
+        public String id;
+        public int vOrder;
+        public String text;
+    }
 }
