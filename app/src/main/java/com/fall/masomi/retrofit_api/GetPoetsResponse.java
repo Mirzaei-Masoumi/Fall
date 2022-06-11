@@ -2,7 +2,7 @@ package com.fall.masomi.retrofit_api;
 
 import java.util.List;
 
-public class GetFallResponse {
+public class GetPoetsResponse {
     public String title;
     public String plainText;
     public String htmlText;

@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".FalIntroActivity" />
         <activity android:name=".FalActivity" />
+        <activity android:name=".PoetsActivity" />
     </application>
 
 </manifest>

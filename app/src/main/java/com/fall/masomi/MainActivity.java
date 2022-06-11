@@ -18,8 +18,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnFall = findViewById(R.id.btnFall);
         btnPoets = findViewById(R.id.btnPoets);
+
         btnFall.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, FalIntroActivity.class);
+            startActivity(intent);
+        });
+
+        btnPoets.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, PoetsActivity.class);
             startActivity(intent);
         });
     }
