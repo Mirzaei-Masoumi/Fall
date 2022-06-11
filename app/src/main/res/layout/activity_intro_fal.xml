@@ -18,21 +18,21 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnFall"
-            android:layout_width="250dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn01"
-            android:text="تفعل به حافظ"
-            android:textColor="@color/purple_700"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:shadowDx="0.1"
+            android:text="@string/m"
             android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnPoets"
-            android:layout_width="250dp"
+            android:id="@+id/btnFall"
+            android:layout_width="270dp"
             android:layout_height="80dp"
             android:background="@drawable/btn01"
-            android:text="زندگی نامه شاعران"
+            android:text="نیت کنید و اشاره ای بفرمایید"
             android:textColor="@color/purple_700"
             android:textSize="20sp" />
     </LinearLayout>
